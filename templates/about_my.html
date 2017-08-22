@@ -1,0 +1,21 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Обо мне!</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+</head>
+<body>
+<ul class="menu">
+	<li><a href="/">Обо мне</a></li>
+	<li><a href="study.html">Учеба</a></li>
+	<li><a href="work.html">Работа</a></li>
+</ul>
+<img src="{% static 'images/avatar.jpg' %}" alt="My image"/ width="500" height="300">
+<h1>{{person.first_name}} {{person.sacond_name}} {{person.last_name}}</h1> 
+<p>
+	Родился: {{person.birthdate}}<br>
+	Хобби: {{person.hobby}}
+</p>
+</body>
+</html>

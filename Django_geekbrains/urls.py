@@ -1,3 +1,4 @@
+import main_app.views as vs
 """Django_geekbrains URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -17,5 +18,8 @@ from django.conf.urls import url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    #url(r'^admin/', admin.site.urls),
+    url(r'^$', vs.about_my),
+    url(r'study.html$', vs.study),
+    url(r'work.html$', vs.work),
 ]
