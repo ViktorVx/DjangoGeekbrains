@@ -7,18 +7,30 @@
 	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
 </head>
 <body>
-<div class="container">
+
+<div class="header">
+	<img src="/static/images/star.jpg" alt="My image" width="110" height="110">
 	<div class="menu">
 		<ul class="menu_ul">
-			<li><a href="/">Обо мне</a></li>
+			<li><a href="/">О Ленине</a></li>
 			<li><a href="study.html">Учеба</a></li>
 			<li><a href="work.html">Работа</a></li>
 		</ul>
 	</div>
 </div>
+<div class="cls"></div>
+<div class="main">
+	{% block main_info %}
+	{% endblock %}
+</div>
+<div class="cls"></div>
 
+<div class="footer">
+	<div class="copyrights">
+		<p>&copy; victorptrv learning site ;)</p>
+	</div>
+	
+</div>
 
-{% block main_info %}
-{% endblock %}
 </body>
 </html>

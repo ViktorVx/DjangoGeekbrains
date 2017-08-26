@@ -5,15 +5,19 @@ from datetime import date
 
 class Person(object):
 	def __init__(self):
-		self.first_name = 'Иван'
-		self.sacond_name = 'Иванович'
-		self.last_name = 'Иванов'
-		self.birthdate = date(1978, 8, 30)
-		self.hobby = 'Люблю программировать на Питоне!'
-		#self.studies = ['СОШ № 38 г. Волгограда','Институт изучения внеземных цивилизаций имени Анунака', 'СПБГТФХУ']
-		#self.works = ['ОАО Звездочка','ОАО ПолимерБытПромТехнология', 'ООО ЗверьШкурПром']
-		self.studies = []
-		self.works = []
+		self.first_name = 'Владимир'
+		self.sacond_name = 'Ильич'
+		self.last_name = 'Ленин'
+		self.birthdate = date(1870, 4, 10)
+		self.hobby = 'Социалистическая революция'
+		self.studies = ['Симбирская гимназия','Казанский университет']
+		self.works = ['председатель Совета Народных Комиссаров СССР',\
+					'председатель Совета Народных Комиссаров РСФСР', \
+					'1-й председатель Совета Труда и Обороны СССР',\
+					'Член Политбюро ЦК РКП(б)',\
+					'Член Политбюро ЦК РСДРП(б)']
+		#self.studies = []
+		#self.works = []
 
 
 

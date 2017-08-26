@@ -5,11 +5,13 @@
 {% endblock %}
 
 {% block main_info %}
-<p>Работал в:</p>
+<p>Должности:</p>
 <ul>
 	{% if person.works %}
 		{% for work in person.works %}
-		<li>{{work}}</li>
+		<div class="l_place">
+			{{work}}
+		</div>
 		{% endfor %}
 	{% else %}
 		<li>Еще не работал</li>

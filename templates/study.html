@@ -9,7 +9,11 @@
 <ul>
 	{% if person.studies %}
 		{% for study in person.studies %}
-		<li>{{study}}</li>
+		<div class="l_place">
+			{{study}}
+		</div>
+
+
 		{% endfor %}
 	{% else %}
 		<li>Обучение пока не проходил</li>
