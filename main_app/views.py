@@ -21,4 +21,5 @@ def study(request):
 	return render_to_response('study.html')
 
 def work(request):
+	aa = 1
 	return render_to_response('work.html')
