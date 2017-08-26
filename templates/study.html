@@ -1,20 +1,18 @@
-{% load staticfiles %}
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Учеба</title>
-	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
-</head>
-<body>
-<ul class="menu">
-	<li><a href="/">Обо мне</a></li>
-	<li><a href="study.html">Учеба</a></li>
-	<li><a href="work.html">Работа</a></li>
-</ul>
+{% extends "base.html" %}
+
+{% block tytle %}
+<title>Учеба</title>
+{% endblock %}
+
+{% block main_info %}
 <p>Проходил обучение в:</p>
 <ul>
-	<li>СОШ № 38 г. Волгограда</li>
-	<li>Институт изучения внеземных цивилизаций имени Анунака</li>
+	{% if person.studies %}
+		{% for study in person.studies %}
+		<li>{{study}}</li>
+		{% endfor %}
+	{% else %}
+		<li>Обучение пока не проходил</li>
+	{% endif %}
 </ul>
-</body>
-</html>
+{% endblock %}

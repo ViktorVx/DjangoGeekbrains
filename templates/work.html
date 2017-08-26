@@ -1,20 +1,18 @@
-{% load staticfiles %}
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Работа</title>
-	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
-</head>
-<body>
-<ul class="menu">
-	<li><a href="/">Обо мне</a></li>
-	<li><a href="study.html">Учеба</a></li>
-	<li><a href="work.html">Работа</a></li>
-</ul>
+{% extends "base.html" %}
+
+{% block tytle %}
+<title>Работа</title>
+{% endblock %}
+
+{% block main_info %}
 <p>Работал в:</p>
 <ul>
-	<li>ОАО Звездочка</li>
-	<li>ОАО ПолимерБытПромТехнология</li>
+	{% if person.works %}
+		{% for work in person.works %}
+		<li>{{work}}</li>
+		{% endfor %}
+	{% else %}
+		<li>Еще не работал</li>
+	{% endif %}
 </ul>
-</body>
-</html>
+{% endblock %}

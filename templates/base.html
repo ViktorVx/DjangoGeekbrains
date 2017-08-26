@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	{% block tytle %}
+	{% endblock %}
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+</head>
+<body>
+<div class="container">
+	<div class="menu">
+		<ul class="menu_ul">
+			<li><a href="/">Обо мне</a></li>
+			<li><a href="study.html">Учеба</a></li>
+			<li><a href="work.html">Работа</a></li>
+		</ul>
+	</div>
+</div>
+
+
+{% block main_info %}
+{% endblock %}
+</body>
+</html>

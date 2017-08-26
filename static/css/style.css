@@ -7,7 +7,7 @@ p {
 }
 
 
-.menu {
+.menu_ul {
 	margin: 0;
 	padding: 4px;
 	list-style-type: none;
@@ -23,4 +23,16 @@ p {
 
 .menu li a{
 	text-decoration: none;
+}
+
+.menu{
+	margin: 0 auto;
+	width: 1300px;
+	height: 26px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1300px;
+	background-color: #008b8b;
 }
