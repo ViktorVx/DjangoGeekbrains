@@ -1,0 +1,202 @@
+[
+{
+	"model": "main_app.hobbies",
+	"pk":10,
+	"fields":
+	{
+		"name":"Бег",
+		"year":"2012-12-12",
+		"main_hobby": 1
+	}
+	
+	
+},
+{
+	"model": "main_app.hobbies",
+	"pk":11,
+	"fields":
+	{
+		"name":"Футбол",
+		"year":"2012-12-1",
+		"main_hobby": 1
+	}
+},
+{
+	"model": "main_app.hobbies",
+	"pk":12,
+	"fields":
+	{
+		"name":"Хоккей",
+		"year":"2012-12-2",
+		"main_hobby": 1
+	}
+},
+{
+	"model": "main_app.hobbies",
+	"pk":13,
+	"fields":
+	{
+		"name":"Теннис",
+		"year":"2012-12-3",
+		"main_hobby": 1
+	}
+},
+{
+	"model": "main_app.hobbies",
+	"pk":14,
+	"fields":
+	{
+		"name":"Литрбол",
+		"year":"2012-12-4",
+		"main_hobby": 1
+	}
+},
+
+{
+	"model": "main_app.workplaces",
+	"pk":1,
+	"fields":
+	{
+		"name":"Политик",
+		"year":"2012-12-4"
+	}
+},
+{
+	"model": "main_app.workplaces",
+	"pk":2,
+	"fields":
+	{
+		"name":"Миллиардер",
+		"year":"2012-12-4"
+	}
+},
+{
+	"model": "main_app.workplaces",
+	"pk":3,
+	"fields":
+	{
+		"name":"Филантроп",
+		"year":"2012-12-4"
+	}
+},
+{
+	"model": "main_app.workplaces",
+	"pk":4,
+	"fields":
+	{
+		"name":"Певец",
+		"year":"2012-12-4"
+	}
+},
+{
+	"model": "main_app.workplaces",
+	"pk":5,
+	"fields":
+	{
+		"name":"Литрболист",
+		"year":"2012-12-4"
+	}
+},
+
+{
+	"model": "main_app.learningplaces",
+	"pk":1,
+	"fields":
+	{
+		"name":"Школа",
+		"year":"2012-12-4"
+	}
+},
+{
+	"model": "main_app.learningplaces",
+	"pk":2,
+	"fields":
+	{
+		"name":"Техникум",
+		"year":"2012-12-4"
+	}
+},
+{
+	"model": "main_app.learningplaces",
+	"pk":3,
+	"fields":
+	{
+		"name":"Курсы",
+		"year":"2012-12-4"
+	}
+},
+{
+	"model": "main_app.learningplaces",
+	"pk":4,
+	"fields":
+	{
+		"name":"Университет",
+		"year":"2012-12-4"
+	}
+},
+{
+	"model": "main_app.learningplaces",
+	"pk":5,
+	"fields":
+	{
+		"name":"Академия",
+		"year":"2012-12-4"
+	}
+},
+
+{
+	"model": "main_app.person",
+	"pk":1,
+	"fields":
+	{
+		"name":"Владимир",
+		"surname":"Ленин",
+		"middlename":"Ильич",
+		"age":200
+	}
+},
+{
+	"model": "main_app.person",
+	"pk":2,
+	"fields":
+	{
+		"name":"Петр",
+		"surname":"Петров",
+		"middlename":"Петрович",
+		"age":24
+	}
+},
+{
+	"model": "main_app.person",
+	"pk":3,
+	"fields":
+	{
+		"name":"Сидор",
+		"surname":"Сидоров",
+		"middlename":"Сидорович",
+		"age":32
+	}
+},
+{
+	"model": "main_app.person",
+	"pk":4,
+	"fields":
+	{
+		"name":"Владимир",
+		"surname":"Зайцев",
+		"middlename":"Петрович",
+		"age":42
+	}
+},
+{
+	"model": "main_app.person",
+	"pk":5,
+	"fields":
+	{
+		"name":"Василиса",
+		"surname":"Прокофьева",
+		"middlename":"Ивановна",
+		"age":18
+	}
+}
+]

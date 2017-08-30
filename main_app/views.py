@@ -1,23 +1,20 @@
 from django.shortcuts import render, render_to_response
 from datetime import date
+from main_app.models import person, learningplaces, workplaces, hobbies
 
 
 
 class Person(object):
 	def __init__(self):
-		self.first_name = 'Владимир'
-		self.sacond_name = 'Ильич'
-		self.last_name = 'Ленин'
-		self.birthdate = date(1870, 4, 10)
-		self.hobby = 'Социалистическая революция'
-		self.studies = ['Симбирская гимназия','Казанский университет']
-		self.works = ['председатель Совета Народных Комиссаров СССР',\
-					'председатель Совета Народных Комиссаров РСФСР', \
-					'1-й председатель Совета Труда и Обороны СССР',\
-					'Член Политбюро ЦК РКП(б)',\
-					'Член Политбюро ЦК РСДРП(б)']
-		#self.studies = []
-		#self.works = []
+		ob = person.objects.get(pk=1)
+		self.first_name = ob.name
+		self.sacond_name = ob.middlename
+		self.last_name = ob.surname
+		self.age = ob.age
+		self.hobbies = hobbies.objects.all()
+		self.studies = learningplaces.objects.all()
+		self.works = workplaces.objects.all()
+
 
 
 

@@ -25,7 +25,7 @@ class learningplaces(models.Model):
 
 class person(models.Model):
 	name = models.CharField(max_length=128)
-	suranme = models.CharField(max_length=128)
+	surname = models.CharField(max_length=128)
 	middlename = models.CharField(max_length=128)
 	age = models.IntegerField()
 	def __str__(self):
