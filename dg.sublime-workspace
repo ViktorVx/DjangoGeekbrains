@@ -4,40 +4,20 @@
 		"selected_items":
 		[
 			[
-				"pa",
-				"padding-bottom"
-			],
-			[
-				"b",
-				"border"
-			],
-			[
-				"a",
-				"auto"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"bo",
-				"bottom"
-			],
-			[
-				"al",
-				"text-align"
-			],
-			[
-				"margi",
-				"margin-left"
-			],
-			[
-				"back",
+				"ba",
 				"background-color"
 			],
 			[
-				"mar",
-				"margin"
+				"co",
+				"contrib\tmodule"
+			],
+			[
+				"B",
+				"BooleanField\tclass"
+			],
+			[
+				"In",
+				"IntegerField\tclass"
 			],
 			[
 				"bor",
@@ -84,55 +64,27 @@
 	"buffers":
 	[
 		{
-			"file": "templates/about_my.html",
-			"settings":
-			{
-				"buffer_size": 365,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/study.html",
-			"settings":
-			{
-				"buffer_size": 343,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/work.html",
-			"settings":
-			{
-				"buffer_size": 315,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "main_app/views.py",
-			"settings":
-			{
-				"buffer_size": 936,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "templates/base.html",
 			"settings":
 			{
-				"buffer_size": 708,
+				"buffer_size": 722,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "static/css/style.css",
+			"file": "main_app/models.py",
 			"settings":
 			{
-				"buffer_size": 943,
+				"buffer_size": 767,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Django_geekbrains/urls.py",
+			"settings":
+			{
+				"buffer_size": 918,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -190,31 +142,30 @@
 	},
 	"expanded_folders":
 	[
-		"/D/PyPVA/Django_geekbrains",
-		"/D/PyPVA/Django_geekbrains/Django_geekbrains",
-		"/D/PyPVA/Django_geekbrains/main_app",
-		"/D/PyPVA/Django_geekbrains/static",
-		"/D/PyPVA/Django_geekbrains/static/css"
+		"/E/Django_geekbrains",
+		"/E/Django_geekbrains/Django_geekbrains",
+		"/E/Django_geekbrains/main_app",
+		"/E/Django_geekbrains/static",
+		"/E/Django_geekbrains/static/css",
+		"/E/Django_geekbrains/static/images",
+		"/E/Django_geekbrains/templates"
 	],
 	"file_history":
 	[
-		"/D/PyPVA/Django_geekbrains/main_app/views.py",
-		"/D/PyPVA/Django_geekbrains/Django_geekbrains/settings.py",
-		"/D/PyPVA/Django_geekbrains/templates/base.html",
-		"/D/PyPVA/Django_geekbrains/static/css/style.css",
-		"/D/PyPVA/Django_geekbrains/templates/about_my.html",
-		"/D/PyPVA/Django_geekbrains/Django_geekbrains/urls.py",
-		"/D/PyPVA/Django_geekbrains/templates/study.html",
-		"/D/PyPVA/Django_geekbrains/templates/work.html",
-		"/E/Django_geekbrains/Django_geekbrains/settings.py",
 		"/E/Django_geekbrains/static/css/style.css",
-		"/E/Django_geekbrains/main_app/views.py",
+		"/E/Django_geekbrains/Django_geekbrains/urls.py",
+		"/E/Django_geekbrains/main_app/models.py",
+		"/E/Django_geekbrains/main_app/admin.py",
+		"/E/Django_geekbrains/manage.py",
+		"/E/Django_geekbrains/Django_geekbrains/settings.py",
+		"/E/Django_geekbrains/main_app/apps.py",
+		"/E/Django_geekbrains/templates/work.html",
+		"/E/Django_geekbrains/templates/study.html",
 		"/E/Django_geekbrains/templates/about_my.html",
+		"/E/Django_geekbrains/main_app/views.py",
 		"/E/Django_geekbrains/static/Django_geekbrains/style.css",
 		"/E/Django_geekbrains/templates/style.css",
-		"/E/Django_geekbrains/Django_geekbrains/urls.py",
 		"/E/Django_geekbrains/Django_geekbrains/wsgi.py",
-		"/E/Django_geekbrains/manage.py",
 		"/E/IntelligentAgent/DataBaseAgent.py",
 		"/E/IntelligentAgent/TwitterAgent.py",
 		"/E/IntelligentAgent/TextAnaliserAgent.py",
@@ -258,57 +209,30 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "templates/about_my.html",
+					"file": "templates/base.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 365,
+						"buffer_size": 722,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								186,
-								110
+								439,
+								439
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/study.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 343,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								200,
-								243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -318,48 +242,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "templates/work.html",
+					"buffer": 1,
+					"file": "main_app/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 315,
+						"buffer_size": 767,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								217,
-								217
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "main_app/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 936,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								602,
-								602
+								0,
+								0
 							]
 						],
 						"settings":
@@ -372,61 +268,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "templates/base.html",
+					"buffer": 2,
+					"file": "Django_geekbrains/urls.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 708,
+						"buffer_size": 918,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								493,
-								493
+								890,
+								890
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "static/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 943,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								925,
-								925
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

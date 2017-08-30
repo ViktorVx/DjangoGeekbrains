@@ -18,8 +18,8 @@ from django.conf.urls import url
 from django.contrib import admin
 
 urlpatterns = [
-    #url(r'^admin/', admin.site.urls),
+    url(r'^admin/', admin.site.urls),
     url(r'^$', vs.about_my),
-    url(r'study.html$', vs.study),
-    url(r'work.html$', vs.work),
+    url(r'^study/', vs.study, name='study'),
+    url(r'^work/', vs.work, name='work'),
 ]

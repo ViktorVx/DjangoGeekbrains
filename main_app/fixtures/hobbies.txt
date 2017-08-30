@@ -1,0 +1,32 @@
+[
+{
+	"model": "maim_app.hobbies",
+	"name":"Бег"
+	"year":12.12.2012
+	"main_hobby":True
+},
+{
+	"model": "maim_app.hobbies",
+	"name":"Ходьба"
+	"year":12.12.2012
+	"main_hobby":True
+},
+{
+	"model": "maim_app.hobbies",
+	"name":"Футбол"
+	"year":12.12.2012
+	"main_hobby":True
+},
+{
+	"model": "maim_app.hobbies",
+	"name":"АРБ"
+	"year":12.12.2012
+	"main_hobby":True
+},
+{
+	"model": "maim_app.hobbies",
+	"name":"Теннис"
+	"year":12.12.2012
+	"main_hobby":True
+}
+]

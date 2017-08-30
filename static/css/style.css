@@ -16,6 +16,12 @@
 .menu li a{
 	text-decoration: none;
 	font-size: 52px;
+	background-color: red;
+	border: 3px solid black;
+}
+
+.menu li a:hover{
+	background-color: green;
 }
 
 /*.menu{
@@ -75,5 +81,6 @@
 	width: 1000px;
 	margin-bottom: 5px;
 }
+
 
 
