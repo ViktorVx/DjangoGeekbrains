@@ -9,12 +9,14 @@
 	<h1>{{person.first_name}} {{person.sacond_name}} {{person.last_name}}</h1> 
 	<p>
 		Возраст: {{person.age}}<br>
-		Хобби: <br>
+        Пол: {{person.sex}}<br>
+        Хобби: <br>
 		<ul>
 			{% for hobby in person.hobbies %}
-				<li>{{hobby}}</li>
+				<li>{{hobby.name}}</li>
 			{% endfor %}
 		</ul>
+
 		
 
 	</p>

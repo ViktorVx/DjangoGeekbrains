@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block tytle %}
+<title>{{ wp.name }}</title>
+{% endblock %}
+
+{% block main_info %}
+Название организации: {{ wp.name }}
+    <br>
+Дата: {{ wp.year }}
+    <br>
+Полная информация: {{ wp.full_info }} <br>
+{% endblock %}

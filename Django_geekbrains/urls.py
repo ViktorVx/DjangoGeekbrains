@@ -21,5 +21,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', vs.about_my),
     url(r'^study/', vs.study, name='study'),
-    url(r'^work/', vs.work, name='work'),
+    url(r'^work/$', vs.work, name='work'),
+    url(r'^work/([A-Za-z0-9]+)/$', vs.work_card, name='work_card'),
 ]
